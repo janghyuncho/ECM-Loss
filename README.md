@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This is an official imp of ouf ECCV 2022 paper [**Long-tail Detection with Effective Class-Margins**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680684.pdf). 
+This is an official implementation of [**Long-tail Detection with Effective Class-Margins**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680684.pdf). 
 
 > [**Long-tail Detection with Effective Class-Margins**](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680684.pdf)             
 > [Jang Hyun Cho](https://janghyuncho.github.io/) and [Philipp Kr&auml;henb&uuml;hl](https://www.philkr.net/)                 
@@ -16,8 +16,10 @@ This is an official imp of ouf ECCV 2022 paper [**Long-tail Detection with Effec
 - mmdet 2.14+
 - mmcv 1.3+
 
+We tested our codebase on mmdet 2.24.1, mmcv 1.5.1, PyTorch 1.11.0, torchvision 0.12.0, and python 3.9. 
+
 ### Setup
-We tested our codebase on mmdet 2.24.1, mmcv 1.5.1, PyTorch 1.11.0, torchvision 0.12.0, and python 3.9. To setup, follow the commands below:
+To setup the code, follow the commands below:
 
 ~~~
 # Clone the repo.
