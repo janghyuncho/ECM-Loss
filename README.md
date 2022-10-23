@@ -67,6 +67,7 @@ All training commands for our models can be found [here](https://github.com/jang
 ./sh_files/ecm_loss/r50_1x.sh 
 ~~~
 
+ECM Loss is implemented [here](https://github.com/janghyuncho/ECM-Loss/blob/main/mmdet/models/losses/effective_class_margin_loss.py).
 
 ## Pretrained Models on LVIS v1
 
