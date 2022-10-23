@@ -62,7 +62,7 @@ data
 ~~~
 
 ## Training with ECM-Loss 
-All training commands for our models can be found [here](). For example, you can train *mask-rcnn* with *resnet-50* backbone for 12 epochs with the following command:
+All training commands for our models can be found [here](https://github.com/janghyuncho/ECM-Loss/tree/main/sh_files/ecm_loss). For example, you can train *mask-rcnn* with *resnet-50* backbone for 12 epochs with the following command:
 ~~~
 ./sh_files/ecm_loss/r50_1x.sh 
 ~~~
@@ -73,10 +73,10 @@ All training commands for our models can be found [here](). For example, you can
 
 | Framework | Backbone | Schedule | Model | Config |
 |:--:|:--:|:--:|:--:|:--:|
-|Mask R-CNN |R50    | 1x  |[weight]()|[config]()  |
-|Mask R-CNN |R50    | 2x  |[weight]()|[config]()  |
-|Mask R-CNN |R101   | 2x |[weight]()|[config]()  |
-|Cascade Mask R-CNN |R101  | 2x |[weight]()|[config]()  |
+|Mask R-CNN |R50    | 1x  |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
+|Mask R-CNN |R50    | 2x  |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
+|Mask R-CNN |R101   | 2x |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
+|Cascade Mask R-CNN |R101  | 2x |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
 
 ## Citation
 If you use use ECM Loss, please cite our paper:
