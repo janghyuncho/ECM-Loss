@@ -72,12 +72,12 @@ ECM Loss is implemented [here](https://github.com/janghyuncho/ECM-Loss/blob/main
 ## Pretrained Models on LVIS v1
 
 
-| Framework | Backbone | Schedule | Model | Config |
-|:--:|:--:|:--:|:--:|:--:|
-|Mask R-CNN |R50    | 1x  |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
-|Mask R-CNN |R50    | 2x  |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
-|Mask R-CNN |R101   | 2x |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
-|Cascade Mask R-CNN |R101  | 2x |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
+| Framework | Backbone | Schedule | Box AP | Mask AP | Weight | Config |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Mask R-CNN |R50    | 1x  |26.9 | 26.4|[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
+|Mask R-CNN |R50    | 2x  |27.9 | 27.5|[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
+|Mask R-CNN |R101   | 2x  |29.4 | 28.7[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
+|Cascade Mask R-CNN |R101 | 2x | 33.4 | 30.6 |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
 
 ## Citation
 If you use use ECM Loss, please cite our paper:
