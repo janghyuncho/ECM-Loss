@@ -86,7 +86,7 @@ The Google Drive links to pretrained weights and their config files.
 |Mask R-CNN |R50    | 1x  |26.9 | 26.4|[weight](https://drive.google.com/file/d/1Jcbbgq0RzZAza90EtsJtQ7w-dfSt5T0m/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
 |Mask R-CNN |R50    | 2x  |27.9 | 27.5|[weight](https://drive.google.com/file/d/1unA2YYjpC2YI5h7PZsojopKBSgJfnYoi/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
 |Mask R-CNN |R101   | 2x  |29.4 | 28.7|[weight](https://drive.google.com/file/d/1alF-CIZmtZos7mEUEd35sBCZxY03Otxu/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
-|Cascade Mask R-CNN |R101 | 2x | 33.4 | 30.6 |[weight](https://drive.google.com/drive/folders/1H1ephGMVQxY5VgAEtpv4_jZmr9m9fewd?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
+|Cascade Mask R-CNN |R101 | 2x | 33.4 | 30.6 |[weight](https://drive.google.com/file/d/1q1ensyvCu85bYncNBCF0xOeWRyUEWjrX/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
 
 ## Citation
 If you use use ECM Loss, please cite our paper:
