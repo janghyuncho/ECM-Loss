@@ -8,6 +8,8 @@ This is an official implementation of [**Long-tail Detection with Effective Clas
 > [Jang Hyun Cho](https://janghyuncho.github.io/) and [Philipp Kr&auml;henb&uuml;hl](https://www.philkr.net/)                 
 > *[ECCV 2022](https://eccv2022.ecva.net/) (oral)*      
 
+Contact: janghyuncho7 [at] utexas.edu.
+
 ## Installation
 ### Requirements 
 - Python 3.6+
@@ -19,7 +21,7 @@ This is an official implementation of [**Long-tail Detection with Effective Clas
 We tested our codebase on mmdet 2.24.1, mmcv 1.5.1, PyTorch 1.11.0, torchvision 0.12.0, and python 3.9. 
 
 ### Setup
-To setup the code, follow the commands below:
+To setup the code, please follow the commands below:
 
 ~~~
 # Clone the repo.
@@ -73,13 +75,14 @@ ECM Loss is implemented [here](https://github.com/janghyuncho/ECM-Loss/blob/main
 
 ## Pretrained Models on LVIS v1
 
+The Google Drive links to pretrained weights and their config files. 
 
 | Framework | Backbone | Schedule | Box AP | Mask AP | Weight | Config |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Mask R-CNN |R50    | 1x  |26.9 | 26.4|[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
-|Mask R-CNN |R50    | 2x  |27.9 | 27.5|[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
-|Mask R-CNN |R101   | 2x  |29.4 | 28.7|[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
-|Cascade Mask R-CNN |R101 | 2x | 33.4 | 30.6 |[weight]()|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
+|Mask R-CNN |R50    | 1x  |26.9 | 26.4|[weight](https://drive.google.com/file/d/1Jcbbgq0RzZAza90EtsJtQ7w-dfSt5T0m/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_1x.py)  |
+|Mask R-CNN |R50    | 2x  |27.9 | 27.5|[weight](https://drive.google.com/file/d/1unA2YYjpC2YI5h7PZsojopKBSgJfnYoi/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r50_ecm_2x.py)  |
+|Mask R-CNN |R101   | 2x  |29.4 | 28.7|[weight](https://drive.google.com/file/d/1alF-CIZmtZos7mEUEd35sBCZxY03Otxu/view?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/r101_ecm_2x.py)  |
+|Cascade Mask R-CNN |R101 | 2x | 33.4 | 30.6 |[weight](https://drive.google.com/drive/folders/1H1ephGMVQxY5VgAEtpv4_jZmr9m9fewd?usp=sharing)|[config](https://github.com/janghyuncho/ECM-Loss/blob/main/configs/effective_class_margin_loss/c101_ecm_2x.py)  |
 
 ## Citation
 If you use use ECM Loss, please cite our paper:
