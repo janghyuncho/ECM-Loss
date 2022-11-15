@@ -8,7 +8,11 @@ This is an official implementation of [**Long-tail Detection with Effective Clas
 > [Jang Hyun Cho](https://janghyuncho.github.io/) and [Philipp Kr&auml;henb&uuml;hl](https://www.philkr.net/)                 
 > *[ECCV 2022](https://eccv2022.ecva.net/) (oral)*      
 
+
 Contact: janghyuncho7 [at] utexas.edu.
+
+
+
 
 ## Installation
 ### Requirements 
