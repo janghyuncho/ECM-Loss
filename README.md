@@ -91,9 +91,9 @@ The Google Drive links to pretrained weights and their config files.
 ## Citation
 If you use use ECM Loss, please cite our paper:
 
-	@inproceedings{cho2022ecm,
+	@inproceedings{cho2022long,
   		title={Long-tail Detection with Effective Class-Margins},
-  		author={Jang Hyun Cho and Philipp Kr{\"a}henb{\"u}hl},
+  		author={Cho, Jang Hyun and Kr\"ahenb\"uhl, Philipp},
   		booktitle={European Conference on Computer Vision (ECCV)},
   		year={2022}
 	}
