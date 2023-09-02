@@ -91,13 +91,14 @@ The Google Drive links to pretrained weights and their config files.
 ## Citation
 If you use use ECM Loss, please cite our paper:
 
-	@inproceedings{cho2022long,
-  		title={Long-tail Detection with Effective Class-Margins},
-  		author={Cho, Jang Hyun and Kr\"ahenb\"uhl, Philipp},
-  		booktitle={European Conference on Computer Vision (ECCV)},
-  		year={2022}
+	@inproceedings{hyun2022long,
+	  title={Long-tail detection with effective class-margins},
+	  author={Hyun Cho, Jang and Kr{\"a}henb{\"u}hl, Philipp},
+	  booktitle={European Conference on Computer Vision},
+	  pages={698--714},
+	  year={2022},
+	  organization={Springer}
 	}
-
 
 ## Acknowledgement 
 ECM Loss is based on [MMDetection](https://github.com/open-mmlab/mmdetection). 
